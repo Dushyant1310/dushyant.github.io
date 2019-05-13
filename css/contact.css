@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+}
+
+body
+{
+	background-image: url('contact-bg.JPG');
+	background-size: cover;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: white;
+	height: 30px;
+}
+
+.navbar a:hover{
+	color: white;
+	
+}
+
+.navbar a#active{
+	text-decoration: underline;
+}
+
+
+
+.navbar{
+	word-spacing: 25px;
+	height: 47px;
+	font-size: 17px;
+	padding-left: 30px;
+	padding-top: 22px;
+	background: rgba(0,0,0,0.4);
+	font-weight: 200;
+}
+
+.heading{
+	padding-left: 60px;
+	padding-top: 30px;
+	font-size: 50px;
+	color: black;
+	font-family: 'Josefin Sans', cursive;
+}
+
+.link a{
+	padding: 50px;
+	text-decoration: none;
+}
+
+.link a:hover{
+	font-color: red;
+}
+
+.link{
+	font-size: 20px;
+	color: #fbde19;
+	background: rgba(0,0,0,0.2);
+	height: 370px;
+	width: 400px;
+	border-radius: 20px;
+	position: absolute;
+	left: 60px;
+	top: 170px;
+}
+
+.link .fb{
+	margin-left: 15px;
+	font-size: 20px;
+	position: absolute;
+	top: 58px;
+	left: 120px;
+	color: white;
+}
+.link .insta{
+	margin-left: 15px;
+	font-size: 20px;
+	position: absolute;
+	top: 123px;
+	left: 120px;
+	color:white;
+}
+.link .mail{
+	margin-left: 15px;
+	font-size: 20px;
+	position: absolute;
+	top:195px;
+	left: 120px;
+	color:white;
+}
+.link .no{
+	margin-left: 15px;
+	font-size: 20px;
+	position: absolute;
+	top: 265px;
+	left: 120px;
+	color: white;
+}
+.link .fb_img{
+	margin-top: 40px;
+	margin-left: 13px;
+
+}
+.link .insta_img{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.link .mail_img{
+	margin-top: 15px;
+	margin-left: 22px;
+}
+.link .no_img{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
